@@ -26,12 +26,12 @@ a {
     color: white;
     text-decoration: none;
 }
-.card {
-    max-width: 100px; max-height: 50px;
+.redirect {
+    width: 300px; height: 100px;
     background-color: rgb(18, 1, 63);
     border: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: PixelIntv;
     transition: all 800ms;
@@ -39,30 +39,7 @@ a {
     border-radius: 20px;
     margin-top: 175px;
     margin-inline: 10px;
-    padding-inline: 10px;
     transition: all 800ms;
-}
-.learn {
-    max-width: 250px; max-height: 50px;
-    background-color: rgb(18, 1, 63);
-    border: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: PixelIntv;
-    transition: all 800ms;
-    border: solid 8px #1b058f;
-    border-radius: 20px;
-    margin-top: 175px;
-    margin-inline: 10px;
-    padding-inline: 10px;
-    transition: all 800ms;
-}
-.card:hover {
-    transform: scale(1.05);
-}
-.learn:hover {
-    transform: scale(1.05);
 }
 .header {
     display: flex;
