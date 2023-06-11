@@ -91,10 +91,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px; height: 2000px;
+    width: 800px; height: 2200px;
     border: solid 8px #1b058f;
     border-radius: 20px;
-    background: linear-gradient(#2b0468 20%, rgb(22, 2, 52) 30%, rgb(22, 2, 52) 80%, #1b058f 1%);
+    background: linear-gradient(#2b0468 20%, rgb(22, 2, 52) 30%, rgb(22, 2, 52) 80%, rgb(22, 2, 52) 10%, rgb(8, 2, 37) 20%);
     overflow: hidden;
 }
 .header {
