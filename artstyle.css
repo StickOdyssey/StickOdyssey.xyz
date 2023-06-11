@@ -39,9 +39,17 @@ hr {
     margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 .grid-item{
+    width:100%;
+    height:auto;
+}
+.grid-item-2{
+    width:100%;
+    height:auto;
+}
+.image{
     width:100%;
     height:auto;
 }
